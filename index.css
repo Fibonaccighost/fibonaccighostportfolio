@@ -36,6 +36,11 @@ header nav ul li{
 
 header nav ul li a:hover{
     text-decoration: underline;
+    transition-delay: 1s;
+}
+
+.active{
+    text-decoration: underline;
 }
 
 .name{
@@ -58,6 +63,7 @@ header nav ul li a:hover{
     flex-direction: column;
     flex-wrap: wrap;
     background-color: rgb(186 192 197);
+    padding: 10px;
 }
 
 main{
@@ -74,4 +80,19 @@ main{
 .text{
     font-size: 3rem;
     margin: 12px auto;
+}
+
+.projectcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    margin: 18vh 0vw;
+    flex-wrap: wrap;
+}
+
+.project{
+    width: 25vw;
+    height: 20vh;
+    border: solid white;
 }
